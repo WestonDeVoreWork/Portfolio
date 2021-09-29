@@ -1,3 +1,107 @@
 body {
-    background-color: lightcoral;
+    height: 500%;
+    width: 100%
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    background-color: lightpink;
+    height: 150px;
+    z-index: 1;
+}
+
+.TITLEATTOP {
+    font-size: 80px;
+    /* background-color: red; */
+}
+
+#navtext {
+    position: relative;
+    top: -28px;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.landingPage {
+    position: relative;
+    top: 150px;
+    /* width: 1000; */
+    background-image: url(assets/DayCare-blurred1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 859px;
+    z-index: 0;
+    /* background-blend-mode: multiply; */
+}
+
+#PFP1 {
+    display: flex;
+    height: 663px;
+    width: 430px;
+    float: right;
+    /* border-radius: 10; */
+}
+
+#landpagePara {
+    color: lightgrey;
+    font-size: 50px;
+}
+
+#landingPagePara2 {
+    color: whitesmoke;
+    font-size: large;
+}
+
+.landingPage {
+    /* display: flex;
+    flex-direction: column; */
+}
+
+/* .textUnderTITLEATTOP {
+    font-size: 30px;
+    position: relative;
+    top: -35px; */
+/* } */
+
+/* p {
+    position: relative;
+    top: 90px;
+} */
+
+/* pageStart {
+    position: relative;
+    top: 50px;
+} */
+
+#img1 {
+    height: 175px;
+    width: 175px;
+    border-radius: 175px;
+}
+
+.contactMe {
+    background-color: lightcyan;
+    
+}
+
+#contactButton {
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/* \/ NAV BAR TEXT */
+#navtext {
+    color: black;
+}
+
+#FormIdemailForm {
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
