@@ -1,6 +1,23 @@
+/* 
+
+HOW TO CHANGE BETWEEN PHONE AND COMPUTER
+LOOK AT THIS WHEN NEARER TO DEADLINE AND EVERYTHING ESLE IS DONE.
+https://stackoverflow.com/questions/16156225/how-to-change-css-based-on-mobile-device
+
+*/
+
+
 body {
     height: 500%;
     width: 100%
+}
+
+.topPageNav {
+    z-index: 5;
+}
+
+.WholePage {
+    padding-top: 150px;
 }
 
 nav {
@@ -9,11 +26,13 @@ nav {
     text-align: center;
     background-color: lightpink;
     height: 150px;
-    z-index: 1;
+    z-index: 100;
+    font-family: arial, sans-serif;
 }
 
 .TITLEATTOP {
     font-size: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     /* background-color: red; */
 }
 
@@ -26,7 +45,7 @@ nav {
 
 .landingPage {
     position: relative;
-    top: 150px;
+    top: 0px;
     /* width: 1000; */
     background-image: url(assets/DayCare-blurred1.png);
     background-position: center;
@@ -39,8 +58,8 @@ nav {
 
 #PFP1 {
     display: flex;
-    height: 663px;
-    width: 430px;
+    height: 859px;
+    width: 470px;
     float: right;
     /* border-radius: 10; */
 }
@@ -84,7 +103,25 @@ nav {
 
 .contactMe {
     background-color: lightcyan;
-    
+    display: flex;
+    float: right;
+    position: relative;
+    top: 115px;
+}
+
+.aboutMe {
+    position: relative;
+    top: 150px;
+    background-color: lightblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.aboutMe p {
+    font-size: 22px;
+}
+
+.Skillset {
+    color: white
 }
 
 #contactButton {
@@ -98,6 +135,7 @@ a:link {
 /* \/ NAV BAR TEXT */
 #navtext {
     color: black;
+    
 }
 
 #FormIdemailForm {
@@ -105,3 +143,213 @@ a:link {
     flex-direction: column;
     position: relative;
 }
+
+a:hover {
+    /* background-color: lightblue; */
+    background-color: lightblue;
+    border-radius: 25px;
+}
+
+
+/* MONSTER */
+.creatureAssignment {
+    position: relative;
+    top: 150px;
+    background-color: white;
+    text-align: center;
+}
+
+
+    /* CREATURE PROJECT */
+
+            
+
+            .Monsterwrapper {
+                background-color: white;
+
+            }
+
+                .monster {
+                    width: 300px;
+                    height: 300px;
+                    border: transparent 1px black;
+                    position: relative;
+                    left: 43%;    
+                }
+                
+                .Monsterbody {
+                    width: 50px;
+                    height: 200px;
+                    position: relative;
+                    left: 125px;
+                    border: solid 1px darkred;
+                    border-color: red;
+                    border-radius: 50px;
+                    background-color: darkred;
+                    z-index: 2;
+                }
+                
+                .leftarm {
+                    width: 13px;
+                    height: 75px;
+                    position: relative;
+                    left: 110px;
+                    bottom: 130px;
+                    transform: rotate(20deg);
+                    border: solid 1px red;
+                    border-radius: 50px;
+                    border-color: red;
+                }
+                
+                .rightarm {
+                    width: 13px;
+                    height: 75px;
+                    position: relative;
+                    left: 175px;
+                    bottom: 208px;
+                    transform: rotate(160deg);
+                    border: solid 1px red;
+                    border-radius: 50px;
+                    border-color: red;
+                }
+                
+                .lefteye {
+                    width: 45px;
+                    height: 5px;
+                    position: relative;
+                    left: 140px;
+                    bottom: 167px;
+                    transform: rotate(90deg);
+                    border: solid 1px red;
+                    border-radius: 50px;
+                    border-color: darkred;
+                    background-color: red;
+                    z-index: 3;
+                }
+                
+                
+                
+                .righteye {
+                    width: 45px;
+                    height: 5px;
+                    position: relative;
+                    left: 115px;
+                    bottom: 174px;
+                    transform: rotate(90deg);
+                    border: solid 1px red;
+                    border-radius: 50px;
+                    border-color: darkred;
+                    background-color: red;
+                    z-index: 3;
+                }
+                
+                #ineye-left {
+                    width: 41px;
+                    height: 1px;
+                    position: relative;
+                    left: 1px;
+                    bottom: -1px;
+                    transform: rotate(0deg);
+                    border: solid 1px cyan;
+                    border-radius: 50px;
+                    border-color: cyan;
+                    background-color: cyan;
+                    z-index: 3;
+                }
+                
+                #ineye-right {
+                    width: 41px;
+                    height: 1px;
+                    position: relative;
+                    left: 1px;
+                    bottom: -1px;
+                    transform: rotate(0deg);
+                    border: solid 1px cyan;
+                    border-radius: 50px;
+                    border-color: cyan;
+                    background-color: cyan;
+                    z-index: 3;
+                }
+                
+                .mouth {
+                    width: 45px;
+                    height: 1px;
+                    position: relative;
+                    left: 127px;
+                    bottom: 550px;
+                    border: solid 1px black;
+                    border-radius: 50px;
+                    border-color: black;
+                    background-color: black;
+                    z-index: 3;
+                }
+                
+                
+                .rightleg {
+                    width: 15px;
+                    height: 125px;
+                    position: relative;
+                    left: 170px;
+                    bottom: 213px;
+                    transform: rotate(170deg);
+                    border: solid 1px red;
+                    border-radius: 50px;
+                    border-color: darkred;
+                    background-color: red;
+                }
+                
+                .leftleg {
+                    width: 15px;
+                    height: 125px;
+                    position: relative;
+                    left: 115px;
+                    bottom: 340px;
+                    transform: rotate(8deg);
+                    border: solid 1px darkred;
+                    border-radius: 50px;
+                    border-color: darkred;
+                    background-color: red;
+                }
+    
+    /* API CHALLENGE 1 */
+    html {background-color: wheat;}
+    .APIproject {
+        position: relative;
+        top: 100px;
+    }
+
+
+        .wholePage {
+            background-color: indianred;
+            margin: 70px;
+            height: 1100px;
+            z-index: 1;
+        }
+
+        .outsideH1 {
+            position: relative;
+            text-align: center;    
+            border: 5px solid grey;
+            background-color: lightgrey;
+        }
+
+        #APIbutton {
+            width: 200px;
+            height: 200px;
+            font-size: 30px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            border-radius: 180px;
+            border: 1px red
+        }
+
+        #APIbutton button:hover {
+            font-size: 50px;
+        } 
+
+        #factDisplay {
+            color: white;
+            text-align: center;
+            margin: 60px;
+        }
+        
+/* API PROJECT #2 */
