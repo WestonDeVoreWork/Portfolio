@@ -36,12 +36,13 @@
       <img src="assets/pfp4" id="PFP1">
       <!-- <h2 id="PFP1">This is a test to see just how far this text will go. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat esse, ab tempora earum ex animi ipsa odit voluptas, dolorum maiores est voluptatem ipsum modi veritatis eos expedita?</h2> -->
       <p id="landpagePara">Web Development</p>
-      <p id="landingPagePara2">I code things and do cool stuff. Note: Modify this later.</p>
+      <p id="landingPagePara2">"Nobody's a natural. You work hard to get good and then work to get better." - Banoc Bookz</p>
 
+      <br>
       <!-- MY SKILLSET -->
       <div class="Skillset">
 
-        <h2>My Skillset</h2>
+        <h2>My Skillset:</h2>
         <ul>
           <li>HTML & CSS</li>
           <li>JAVASCRIPT</li>
@@ -54,9 +55,13 @@
 
       </div>
 
+      <br>
+      <br>
       <!-- CONTACT ME BUTTON -->
-      <!-- <a href="#contact"><h2 id="contactButton" >CONTACT ME</h2></a>
-    <a href="#contact"><img src="assets/PFP2-cropped.jpg" id="img1" href="#contact"></a> -->
+      <a href="#contact">
+        <h2 id="firstcontactButton">CONTACT ME</h2>
+      </a>
+      <a href="#contact"><img src="assets/PFP2-cropped.jpg" id="img1" href="#contact"></a>
 
 
     </div>
@@ -124,7 +129,7 @@
       <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
       <div class="bothapibackground">
         <br>
-      
+
 
         <div class="APIproject" id="APIproject">
           <!-- API PROJECT -->
@@ -151,43 +156,45 @@
         <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
         <!-- API -->
-        <div class="API2WHOLEPAGE">
+        <div class="APIWHOLEPAGEPAD">
+          <div class="API2WHOLEPAGE">
 
-          <div class="API2margin">
-            <div class="TITLE">
-              <!-- TITLE AT TOP OF PAGE -->
-              <h1 class="display-1">The Currency Conversion Inator</h1>
+            <div class="API2margin">
+              <div class="TITLE">
+                <!-- TITLE AT TOP OF PAGE -->
+                <h1 class="display-1">The Currency Conversion Inator</h1>
 
-            </div>
+              </div>
 
 
-            <div class="API2UnderTitle">
-              <form>
-                <!-- SEARCH FORM -->
-                <h2 class="display-6">Input Your Currencies and Click the Button</h2>
-                <div class="formBox">
-                  <input type="text" class="form-control" placeholder="Converting From:" id="baseCurrency">
-                  <input type="text" class="form-control" placeholder="Converting To:" id="targetCurrency">
+              <div class="API2UnderTitle">
+                <form>
+                  <!-- SEARCH FORM -->
+                  <h2 class="display-6">Input Your Currencies and Click the Button</h2>
+                  <div class="formBox">
+                    <input type="text" class="form-control" placeholder="Converting From:" id="baseCurrency">
+                    <input type="text" class="form-control" placeholder="Converting To:" id="targetCurrency">
 
-                </div>
+                  </div>
 
-                <button type="button" class="btn btn-primary" id="APIsubmit" onclick="fetchSearchResults()">CONVERT YOUR
-                  CURRENCIES</button>
-              </form>
+                  <button type="button" class="btn btn-primary" id="APIsubmit" onclick="fetchSearchResults()">CONVERT
+                    YOUR
+                    CURRENCIES</button>
+                </form>
 
-              <h1 class="displasy-6" id="results">Results:</h1>
-              <h1 id="resultDisplay"></h1>
+                <h1 class="displasy-6" id="results">Results:</h1>
+                <h1 id="resultDisplay"></h1>
 
-              <br>
-              <br>
-              <br>
+                <br>
+                <br>
+                <br>
 
-              <a href="https://www.exchangerate-api.com/docs/supported-currencies">Click here to see All Supported
-                Currencies</a>
+                <a href="https://www.exchangerate-api.com/docs/supported-currencies">Click here to see All Supported
+                  Currencies</a>
 
+              </div>
             </div>
           </div>
-
 
 
         </div>
@@ -196,41 +203,38 @@
         <!-- CONTACT ME BUTTON -->
         <h2 id="contact" href="#contact">CONTACT ME</h2>
         <img src="assets/PFP2-cropped.jpg" id="img1" href="#contact">
-        
-        <div class="mb-3">
-        <form id="FormIdemailForm" name="simple-contact-form" action="https://formspree.io/f/xvodyoga" method="post">
-          <fieldset id="emailForm">
 
-            <!-- <label for="full-name" class="form-label">Full Name</label> -->
-            <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+        <div class="EMAILFORM">
+          <form id="FormIdemailForm" name="simple-contact-form" action="https://formspree.io/f/xvodyoga" method="post">
+            <fieldset id="emailForm">
 
-            <!-- <label for="emailAddress" class="form-label">Email Address</label> -->
-            <input type="email" name="_replyto" id="emailAddress" placeholder="email@domain.tld" required="">
-            
-            <!-- <label for="message" class="form-label">Message</label> -->
-            <textarea rows="5" name="message" id="message" placeholder="Your Message." required=""></textarea>
-          </fieldset>
-          <input type="submit" value="Submit">
-        </form>
+              <label for="full-name" class="form-label">Full Name</label>
+              <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+
+              <label for="emailAddress" class="form-label">Email Address</label>
+              <input type="email" name="_replyto" id="emailAddress" placeholder="email@domain.tld" required="">
+
+              <label for="message" class="form-label">Message</label>
+              <textarea rows="1" name="message" id="message" placeholder="Your Message." required=""></textarea>
+            </fieldset>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+
       </div>
-
-      </div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-
-
-
-
-
-
-
-
-      <footer></footer>
     </div>
   </div>
+
+  <footer class="text-center text-lg-start bg-light text-muted">
+    <div class="text-center p-4" style="background-color: rgba(24, 116, 158, 0.678);">
+      <h5>© 2021 Copyright:
+        <a class="text-reset fw-bold"
+          href="https://github.com/WestonDeVoreWork/">https://github.com/WestonDeVoreWork/</a>
+        </h3>
+    </div>
+  </footer>
+  <br>
+  </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>

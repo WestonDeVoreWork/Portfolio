@@ -9,7 +9,7 @@ https://stackoverflow.com/questions/16156225/how-to-change-css-based-on-mobile-d
 
 body {
     height: 500%;
-    width: 100%
+    width: 100%;
 }
 
 .topPageNav {
@@ -17,7 +17,9 @@ body {
 }
 
 .WholePage {
-    padding-top: 150px;
+    /* padding-top: 150px; */
+    position: relative;
+    top: 150px;
 }
 
 nav {
@@ -72,6 +74,8 @@ nav {
 #landingPagePara2 {
     color: whitesmoke;
     font-size: large;
+    font-style: italic;
+
 }
 
 .landingPage {
@@ -103,10 +107,14 @@ nav {
 
 .contactMe {
     background-color: lightcyan;
-    /* display: flex; */
-    float: right;
+    display: flex;
+    flex-direction: column;
+    /* float: right; */
     position: relative;
-    top: 115px;
+    top: -73px;
+    padding-left: 44%;
+    padding-right: 44%;
+    padding-bottom: -540px;
 }
 
 .aboutMe {
@@ -128,11 +136,13 @@ nav {
 }
 
 .Skillset {
-    color: white
+    color: white;
+    font-family: serif, Helvetica, sans-serif;
 }
 
-#contactButton {
-    color: white;
+#firstcontactButton {
+    color: rgb(64, 136, 243);
+
 }
 
 a:link {
@@ -323,7 +333,9 @@ a:hover {
                 }
     
     /* API CHALLENGE 1 */
+    
     html {background-color: wheat;}
+
     .APIproject {
         position: relative;
         top: 0px;
@@ -333,7 +345,9 @@ a:hover {
 
         .wholePage {
             background-color: indianred;
-            margin: 70px;
+            /* margin: 70px; */
+            margin-left: 70px;
+            margin-right: 70px;
             height: 1100px;
             z-index: 1;
         }
@@ -368,9 +382,18 @@ a:hover {
 .API2WHOLEPAGE {
     background-color: darkcyan;
     height: 1000px;
-    margin: 70px;
+    /* margin: 70px; */
+    /* padding-top: 70px;
+    padding-left: 70px;
+    padding-right: 70px; */
     position: relative;
     top: -100px;
+}
+
+.APIWHOLEPAGEPAD {
+    padding-top: 70px;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 .TITLE {
@@ -410,4 +433,14 @@ a:hover {
 .API2UnderTitle a:hover {
     color: red;
     /* text-decoration: underline; */
+}
+
+.EMAILFORM {
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    position: relative;
+    top: 78px;
 }
