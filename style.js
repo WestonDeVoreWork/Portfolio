@@ -45,7 +45,7 @@ function fetchSearchResults() {
         .then(res => res.json())
         .then(data => displayResults(data))
         .catch(err => console.log(err))
-}
+
 
 let displayResults = data => {
     console.log(data);
@@ -57,4 +57,5 @@ let displayResults = data => {
     console.log(converstionRate);
     const jsonConverstionRate = JSON.stringify(converstionRate);
     document.getElementById("resultDisplay").innerHTML = `${jsonConverstionRate}`;
+}
 }
